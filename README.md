@@ -134,3 +134,15 @@ bash tests/run_tests.sh
 - JVM 单测 128 PASS。
 - 真机验收进行中：部分场景仍需在设备上复测（明细见 `docs/IMPLEMENTATION-STATUS.md` 与 `tests/ACCEPTANCE-COVERAGE.md`）。
 - 应用名 `Spark·ENG`，包名 `com.aurora.word`（历史原因，未改）。
+
+---
+
+## 常见构建失败
+
+| 现象 | 原因 | 处理 |
+|---|---|---|
+| `aapt2 ... error: failed to open file`（每个 .flat 都失败） | 输出目录位于被 Windows Defender「受控文件夹访问」保护的路径（例如 OneDrive 同步的桌面），aapt2 无法写文件 | 把仓库 clone 到普通目录（如 `D:/src/spark-eng`）再构建；或把该目录加入 Defender 例外 |
+| `javac: 找不到文件: /d/xxx/Fsrs.java` | javac 是原生 Windows 程序，不认 MSYS 的 `/d/...` 路径 | `build.sh` / `run_tests.sh` 已用 `cygpath -m` 自动转换；手工调用时请用 `D:/...` |
+| `python3` 静默退出（returncode 49），打包步骤无输出 | Windows 的 `WindowsApps\python3` 是应用商店占位符，不是真 Python | 装真 Python，或让脚本用 `python`（`build.sh` 已优先 `python`） |
+| APK 装不上 / 解析失败 | `resources.arsc` 未 4 字节对齐 | `tools/pack.py` 已做对齐并在末尾自检，`align_ok False` 会直接 `exit 1` |
+| `INSTALL_FAILED_ABORTED: User rejected permissions` | 设备屏幕处于休眠，安装确认框根本没出现 | 先 `adb shell svc power stayon true` + `adb shell input keyevent 224`，确认 `mWakefulness=Awake` 再装 |
