@@ -1,0 +1,9 @@
+# 统一换行：仓库内一律 LF（bash/py 脚本用 CRLF 会直接跑不起来）
+* text=auto eol=lf
+
+# 二进制资源
+*.png binary
+*.jar binary
+*.keystore binary
+*.jks binary
+*.apk binary
