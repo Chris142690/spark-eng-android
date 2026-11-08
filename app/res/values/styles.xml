@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="canvas">#FFF7F3EC</color>
+    <color name="card">#FFFFFFFF</color>
+    <color name="text_primary">#FF2C2824</color>
+    <color name="text_secondary">#FF6E665E</color>
+    <color name="text_tertiary">#FF776E65</color>
+    <color name="accent">#FF536F69</color>
+    <color name="stroke">#FFE7DFD4</color>
+    <color name="divider">#FFEEE8DF</color>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/canvas</item>
+        <item name="android:statusBarColor">@color/canvas</item>
+        <item name="android:navigationBarColor">@color/canvas</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

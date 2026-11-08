@@ -1,0 +1,15 @@
+# 构建产物
+build/
+*.apk
+*.apk.idsig
+*.dex
+*.class
+# 凭据
+*.keystore
+*.jks
+kspass.txt
+# 临时
+__pycache__/
+*.pyc
+*.log
+*.bak*

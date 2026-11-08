@@ -1,0 +1,712 @@
+[
+ {
+  "pattern_id": "p-am",
+  "cefr_target": "A1",
+  "scenario": "daily",
+  "formula": "I am + [名词/形容词]",
+  "meaning_zh": "说明自己是谁、是什么状态。英语必须有 be 动词，中文「我很累」不能说 I very tired。",
+  "examples": [
+   {
+    "en": "I am a student.",
+    "cn": "我是学生。"
+   },
+   {
+    "en": "I am tired today.",
+    "cn": "我今天很累。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[身份]",
+    "items": [
+     "a student",
+     "a teacher",
+     "an engineer"
+    ]
+   },
+   {
+    "slot": "[状态]",
+    "items": [
+     "tired",
+     "busy",
+     "ready"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我是新来的。",
+  "reference_answers": [
+   "I am new.",
+   "I'm new.",
+   "I am new here.",
+   "I'm new here."
+  ],
+  "required_vocab": [
+   "new"
+  ],
+  "error_focus": [
+   "漏掉 am（I new）",
+   "am/is/are 混用"
+  ],
+  "collocations": [
+   {
+    "phrase": "be ready",
+    "cn": "准备好"
+   },
+   {
+    "phrase": "be busy with",
+    "cn": "忙于"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-have",
+  "cefr_target": "A1",
+  "scenario": "daily",
+  "formula": "I have + [名词]",
+  "meaning_zh": "说拥有、携带、有某种情况。第三人称要变 has。",
+  "examples": [
+   {
+    "en": "I have two brothers.",
+    "cn": "我有两个兄弟。"
+   },
+   {
+    "en": "I have a question.",
+    "cn": "我有一个问题。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[物品]",
+    "items": [
+     "a car",
+     "a laptop",
+     "a ticket"
+    ]
+   },
+   {
+    "slot": "[情况]",
+    "items": [
+     "a question",
+     "an idea",
+     "time"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我今天有空。",
+  "reference_answers": [
+   "I have time today.",
+   "I have free time today.",
+   "I'm free today."
+  ],
+  "required_vocab": [
+   "time",
+   "free"
+  ],
+  "error_focus": [
+   "have 与 has 混用",
+   "把「有空」直译成 I have free"
+  ],
+  "collocations": [
+   {
+    "phrase": "have time",
+    "cn": "有空"
+   },
+   {
+    "phrase": "have a look",
+    "cn": "看一眼"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-like",
+  "cefr_target": "A1",
+  "scenario": "daily",
+  "formula": "I like + [名词 / doing]",
+  "meaning_zh": "表达喜好。like 后面接动词要用 -ing 或 to do，不能直接接原形。",
+  "examples": [
+   {
+    "en": "I like coffee.",
+    "cn": "我喜欢咖啡。"
+   },
+   {
+    "en": "I like reading.",
+    "cn": "我喜欢读书。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[名词]",
+    "items": [
+     "tea",
+     "music",
+     "this city"
+    ]
+   },
+   {
+    "slot": "[动作]",
+    "items": [
+     "reading",
+     "cooking",
+     "walking"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我喜欢在这里工作。",
+  "reference_answers": [
+   "I like working here.",
+   "I like to work here."
+  ],
+  "required_vocab": [
+   "working",
+   "work"
+  ],
+  "error_focus": [
+   "like 后接动词原形（I like read）"
+  ],
+  "collocations": [
+   {
+    "phrase": "like doing",
+    "cn": "喜欢做某事"
+   },
+   {
+    "phrase": "would like",
+    "cn": "想要（更礼貌）"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-want",
+  "cefr_target": "A1",
+  "scenario": "daily",
+  "formula": "I want to + [动词原形]",
+  "meaning_zh": "表达自己想做什么。want 后面接 to do，不能接 doing。",
+  "examples": [
+   {
+    "en": "I want to learn English.",
+    "cn": "我想学英语。"
+   },
+   {
+    "en": "I want to go home.",
+    "cn": "我想回家。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[动作]",
+    "items": [
+     "learn English",
+     "buy a phone",
+     "take a break"
+    ]
+   },
+   {
+    "slot": "[时间]",
+    "items": [
+     "today",
+     "tomorrow",
+     "this week"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我想订一间会议室。",
+  "reference_answers": [
+   "I want to book a meeting room.",
+   "I'd like to book a meeting room."
+  ],
+  "required_vocab": [
+   "book",
+   "meeting",
+   "room"
+  ],
+  "error_focus": [
+   "want 后接 doing（I want going）",
+   "漏 to"
+  ],
+  "collocations": [
+   {
+    "phrase": "want to do",
+    "cn": "想做"
+   },
+   {
+    "phrase": "want sb to do",
+    "cn": "想让某人做"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-cani",
+  "cefr_target": "A1",
+  "scenario": "request",
+  "formula": "Can I + [动词原形]?",
+  "meaning_zh": "请求许可或提出请求，最常用的入门句式。",
+  "examples": [
+   {
+    "en": "Can I ask a question?",
+    "cn": "我可以问个问题吗？"
+   },
+   {
+    "en": "Can I pay by card?",
+    "cn": "我可以刷卡吗？"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[动作]",
+    "items": [
+     "sit here",
+     "open the window",
+     "use your phone"
+    ]
+   },
+   {
+    "slot": "[支付/方式]",
+    "items": [
+     "pay by card",
+     "pay in cash"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我可以看一下吗？",
+  "reference_answers": [
+   "Can I have a look?",
+   "Can I take a look?",
+   "May I have a look?"
+  ],
+  "required_vocab": [
+   "look"
+  ],
+  "error_focus": [
+   "Can I 后接 to do",
+   "语序错误（I can ask?）"
+  ],
+  "collocations": [
+   {
+    "phrase": "pay by card",
+    "cn": "刷卡"
+   },
+   {
+    "phrase": "have a look",
+    "cn": "看一下"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-where",
+  "cefr_target": "A1",
+  "scenario": "request",
+  "formula": "Where is + [地点/物品]?",
+  "meaning_zh": "问位置。复数用 Where are。",
+  "examples": [
+   {
+    "en": "Where is the station?",
+    "cn": "车站在哪里？"
+   },
+   {
+    "en": "Where are my keys?",
+    "cn": "我的钥匙在哪？"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[地点]",
+    "items": [
+     "the station",
+     "the toilet",
+     "the elevator"
+    ]
+   },
+   {
+    "slot": "[物品]",
+    "items": [
+     "my bag",
+     "the menu",
+     "the receipt"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：洗手间在哪里？",
+  "reference_answers": [
+   "Where is the toilet?",
+   "Where's the restroom?",
+   "Where is the bathroom?"
+  ],
+  "required_vocab": [
+   "toilet",
+   "restroom",
+   "bathroom"
+  ],
+  "error_focus": [
+   "单复数与 is/are 不一致",
+   "Where is 后加 of"
+  ],
+  "collocations": [
+   {
+    "phrase": "Where is",
+    "cn": "……在哪"
+   },
+   {
+    "phrase": "next to",
+    "cn": "在……旁边"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-howmuch",
+  "cefr_target": "A1",
+  "scenario": "request",
+  "formula": "How much is/are + [物品]?",
+  "meaning_zh": "问价格。可数复数用 are。",
+  "examples": [
+   {
+    "en": "How much is this?",
+    "cn": "这个多少钱？"
+   },
+   {
+    "en": "How much are these shoes?",
+    "cn": "这双鞋多少钱？"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[物品]",
+    "items": [
+     "this bag",
+     "the ticket",
+     "these apples"
+    ]
+   },
+   {
+    "slot": "[服务]",
+    "items": [
+     "a room for one night",
+     "delivery"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：这间房一晚多少钱？",
+  "reference_answers": [
+   "How much is the room for one night?",
+   "How much is a room for one night?"
+  ],
+  "required_vocab": [
+   "room",
+   "night"
+  ],
+  "error_focus": [
+   "is/are 与名词数不一致",
+   "漏 is（How much this?）"
+  ],
+  "collocations": [
+   {
+    "phrase": "How much",
+    "cn": "多少钱"
+   },
+   {
+    "phrase": "for one night",
+    "cn": "一晚"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-idlike",
+  "cefr_target": "A1",
+  "scenario": "travel",
+  "formula": "I'd like + [名词 / to do]",
+  "meaning_zh": "比 I want 更礼貌的请求，餐厅、酒店、柜台都用它。",
+  "examples": [
+   {
+    "en": "I'd like a coffee, please.",
+    "cn": "我要一杯咖啡。"
+   },
+   {
+    "en": "I'd like to check in.",
+    "cn": "我要办入住。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[名词]",
+    "items": [
+     "a table for two",
+     "a single room",
+     "the menu"
+    ]
+   },
+   {
+    "slot": "[动作]",
+    "items": [
+     "check in",
+     "change my booking",
+     "pay now"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我想改一下我的预订。",
+  "reference_answers": [
+   "I'd like to change my booking.",
+   "I would like to change my booking."
+  ],
+  "required_vocab": [
+   "change",
+   "booking"
+  ],
+  "error_focus": [
+   "写成 I'd like change（漏 to）",
+   "I'd like 后接动词原形"
+  ],
+  "collocations": [
+   {
+    "phrase": "check in",
+    "cn": "办入住"
+   },
+   {
+    "phrase": "a table for two",
+    "cn": "两人桌"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-ineed",
+  "cefr_target": "A1",
+  "scenario": "travel",
+  "formula": "I need + [名词 / to do]",
+  "meaning_zh": "表达需求。比 I want 更强调必要。",
+  "examples": [
+   {
+    "en": "I need a taxi.",
+    "cn": "我需要一辆出租车。"
+   },
+   {
+    "en": "I need to charge my phone.",
+    "cn": "我需要给手机充电。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[物品]",
+    "items": [
+     "a charger",
+     "a receipt",
+     "some help"
+    ]
+   },
+   {
+    "slot": "[动作]",
+    "items": [
+     "charge my phone",
+     "print this",
+     "call the office"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我需要一张收据。",
+  "reference_answers": [
+   "I need a receipt.",
+   "I need the receipt."
+  ],
+  "required_vocab": [
+   "receipt"
+  ],
+  "error_focus": [
+   "need 后误接 doing",
+   "可数名词漏冠词（I need receipt）"
+  ],
+  "collocations": [
+   {
+    "phrase": "need help",
+    "cn": "需要帮助"
+   },
+   {
+    "phrase": "need to do",
+    "cn": "需要做"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-looking",
+  "cefr_target": "A1",
+  "scenario": "travel",
+  "formula": "I'm looking for + [名词]",
+  "meaning_zh": "正在找某物或某人。for 不能省。",
+  "examples": [
+   {
+    "en": "I'm looking for my hotel.",
+    "cn": "我在找我的酒店。"
+   },
+   {
+    "en": "I'm looking for a pharmacy.",
+    "cn": "我在找药店。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[地点]",
+    "items": [
+     "a pharmacy",
+     "the bus stop",
+     "gate 12"
+    ]
+   },
+   {
+    "slot": "[物品]",
+    "items": [
+     "my luggage",
+     "a charger",
+     "the receipt"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我在找我的行李。",
+  "reference_answers": [
+   "I'm looking for my luggage.",
+   "I am looking for my luggage.",
+   "I'm looking for my bag."
+  ],
+  "required_vocab": [
+   "luggage",
+   "bag"
+  ],
+  "error_focus": [
+   "漏 for（looking my luggage）",
+   "look for 与 find 混用"
+  ],
+  "collocations": [
+   {
+    "phrase": "look for",
+    "cn": "寻找"
+   },
+   {
+    "phrase": "look at",
+    "cn": "看"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-workat",
+  "cefr_target": "A1",
+  "scenario": "work",
+  "formula": "I work at/for + [公司] · I work as + [职位]",
+  "meaning_zh": "介绍工作单位与职位。at 接地点/公司，as 接职位。",
+  "examples": [
+   {
+    "en": "I work at a small company.",
+    "cn": "我在一家小公司工作。"
+   },
+   {
+    "en": "I work as a designer.",
+    "cn": "我是设计师。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[单位]",
+    "items": [
+     "a bank",
+     "a school",
+     "an AI company"
+    ]
+   },
+   {
+    "slot": "[职位]",
+    "items": [
+     "a designer",
+     "an engineer",
+     "a sales manager"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：我在一家 AI 公司做工程师。",
+  "reference_answers": [
+   "I work at an AI company as an engineer.",
+   "I'm an engineer at an AI company."
+  ],
+  "required_vocab": [
+   "work",
+   "engineer",
+   "company"
+  ],
+  "error_focus": [
+   "work at 后接职位（work at designer）",
+   "漏冠词"
+  ],
+  "collocations": [
+   {
+    "phrase": "work at",
+    "cn": "在……工作"
+   },
+   {
+    "phrase": "work as",
+    "cn": "担任"
+   }
+  ],
+  "content_version": "v1"
+ },
+ {
+  "pattern_id": "p-helpwith",
+  "cefr_target": "A1",
+  "scenario": "work",
+  "formula": "I need help with + [名词 / doing]",
+  "meaning_zh": "请人帮忙。with 后面接事情，不接人。",
+  "examples": [
+   {
+    "en": "I need help with this report.",
+    "cn": "这个报告我需要帮忙。"
+   },
+   {
+    "en": "I need help with setting up the meeting.",
+    "cn": "安排会议我需要帮忙。"
+   }
+  ],
+  "substitutions": [
+   {
+    "slot": "[事情]",
+    "items": [
+     "this file",
+     "the schedule",
+     "my English"
+    ]
+   },
+   {
+    "slot": "[动作]",
+    "items": [
+     "setting up the meeting",
+     "checking the numbers"
+    ]
+   }
+  ],
+  "prompt_zh": "用英语说：这个表格我需要帮忙。",
+  "reference_answers": [
+   "I need help with this form.",
+   "I need help with the form."
+  ],
+  "required_vocab": [
+   "help",
+   "form"
+  ],
+  "error_focus": [
+   "help 后直接接人（help me with 才对人）",
+   "漏 with"
+  ],
+  "collocations": [
+   {
+    "phrase": "help with",
+    "cn": "帮忙处理"
+   },
+   {
+    "phrase": "set up",
+    "cn": "安排/设置"
+   }
+  ],
+  "content_version": "v1"
+ }
+]

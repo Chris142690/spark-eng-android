@@ -1,0 +1,25 @@
+== 一、首次评分稳定性（P0 回归） ==
+PASS initStability(1) Again = 0.4872
+PASS initStability(2) Hard = 1.4003
+PASS initStability(3) Good = 3.7145
+== 二、首次难度（Again 应比 Good 更难：D 更大） ==
+PASS initDifficulty(1) = 7.6214
+PASS initDifficulty(2) = 6.3916
+PASS initDifficulty(3) = 5.1618
+PASS D(Again) > D(Good) 7.6214 > 5.1618
+== 三、首次间隔（R=0.9） ==
+PASS interval(3.7145, 0.9) = 3.7144999999999992
+== 四、复现 P0：s=0 的卡误走 next() 会爆掉稳定性 ==
+PASS retrievability(0, s) == 1 got 1.0
+PASS 旧路径确实会放大（>30 天） r(s=0)=0.0 next 得 s=177.52922861244141（对比正确值 3.7145）
+PASS 修复路径 s 落在 3.71 s=3.7145
+== 五、正常复习路径：20 天后 Good 增长有限 ==
+PASS 20 天前后 S 增长在 2-8 倍 s 3.7145 -> 14.058481880640956 r=0.9003339453647258
+== 六、评分越高稳定性越大的偏序 ==
+PASS Again < Hard < Good 0.4872 < 1.4003 < 3.7145
+== 七、区间有限且为正 ==
+PASS interval 为正且 < 365 ivl=3.7144999999999992
+== 八、retrievability 随天数单调下降 ==
+PASS R(1) > R(7) > R(30) 0.9698462273634281 > 0.8327423038946435 > 0.5877801341833996
+
+RESULT: pass=15 fail=0

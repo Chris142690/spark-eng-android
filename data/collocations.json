@@ -1,0 +1,636 @@
+[
+ {
+  "collocation_id": "c-am-01",
+  "pattern_id": "p-am",
+  "english": "I am new here.",
+  "chinese": "我是新来的。",
+  "scenario": "daily",
+  "required_vocab": [
+   "new",
+   "here"
+  ],
+  "new_vocab": [
+   "here"
+  ],
+  "difficulty": "A1",
+  "example_en": "I am new here, so I don't know the way.",
+  "example_zh": "我是新来的，所以不认路。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-am-02",
+  "pattern_id": "p-am",
+  "english": "I am ready for the meeting.",
+  "chinese": "我准备好开会了。",
+  "scenario": "work",
+  "required_vocab": [
+   "ready",
+   "meeting"
+  ],
+  "new_vocab": [
+   "meeting"
+  ],
+  "difficulty": "A1",
+  "example_en": "I am ready for the meeting. Let's start.",
+  "example_zh": "我准备好开会了，开始吧。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-am-03",
+  "pattern_id": "p-am",
+  "english": "I am free this afternoon.",
+  "chinese": "我今天下午有空。",
+  "scenario": "work",
+  "required_vocab": [
+   "free",
+   "afternoon"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I am free this afternoon. Can we talk then?",
+  "example_zh": "我今天下午有空，那时候谈可以吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-have-01",
+  "pattern_id": "p-have",
+  "english": "I have a meeting at ten.",
+  "chinese": "我十点有个会。",
+  "scenario": "work",
+  "required_vocab": [
+   "meeting",
+   "ten"
+  ],
+  "new_vocab": [
+   "meeting"
+  ],
+  "difficulty": "A1",
+  "example_en": "I have a meeting at ten, so I'll call you later.",
+  "example_zh": "我十点有个会，晚点打给你。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-have-02",
+  "pattern_id": "p-have",
+  "english": "I have no time today.",
+  "chinese": "我今天没时间。",
+  "scenario": "daily",
+  "required_vocab": [
+   "time",
+   "today"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "Sorry, I have no time today. Maybe tomorrow.",
+  "example_zh": "抱歉，我今天没时间，明天吧。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-have-03",
+  "pattern_id": "p-have",
+  "english": "I have a question about the form.",
+  "chinese": "我有个关于表格的问题。",
+  "scenario": "work",
+  "required_vocab": [
+   "question",
+   "form"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I have a question about the form. Which line do I sign?",
+  "example_zh": "我有个关于表格的问题，签哪一行？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-like-01",
+  "pattern_id": "p-like",
+  "english": "I like working with this team.",
+  "chinese": "我喜欢和这个团队一起工作。",
+  "scenario": "work",
+  "required_vocab": [
+   "working",
+   "team"
+  ],
+  "new_vocab": [
+   "working"
+  ],
+  "difficulty": "A1",
+  "example_en": "I like working with this team. Everyone is helpful.",
+  "example_zh": "我喜欢和这个团队一起工作，大家都很帮忙。",
+  "content_version": "v1",
+  "teaching_note": "like + doing 结构：working 是动名词，不是名词替换",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-like-02",
+  "pattern_id": "p-like",
+  "english": "I like coffee in the morning.",
+  "chinese": "我早上喜欢喝咖啡。",
+  "scenario": "daily",
+  "required_vocab": [
+   "coffee",
+   "morning"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I like coffee in the morning, but not at night.",
+  "example_zh": "我早上喜欢喝咖啡，晚上不喝。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-like-03",
+  "pattern_id": "p-like",
+  "english": "I like this room.",
+  "chinese": "我喜欢这个房间。",
+  "scenario": "travel",
+  "required_vocab": [
+   "room"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I like this room. It is quiet.",
+  "example_zh": "我喜欢这个房间，很安静。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-want-01",
+  "pattern_id": "p-want",
+  "english": "I want to book a room.",
+  "chinese": "我想订一个房间。",
+  "scenario": "travel",
+  "required_vocab": [
+   "book",
+   "room"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I want to book a room for two nights.",
+  "example_zh": "我想订一个房间，住两晚。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-want-02",
+  "pattern_id": "p-want",
+  "english": "I want to change my booking.",
+  "chinese": "我想改我的预订。",
+  "scenario": "travel",
+  "required_vocab": [
+   "change",
+   "booking"
+  ],
+  "new_vocab": [
+   "booking"
+  ],
+  "difficulty": "A1",
+  "example_en": "I want to change my booking to Friday.",
+  "example_zh": "我想把预订改到周五。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-want-03",
+  "pattern_id": "p-want",
+  "english": "I want to ask a question.",
+  "chinese": "我想问一个问题。",
+  "scenario": "daily",
+  "required_vocab": [
+   "ask",
+   "question"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I want to ask a question before we start.",
+  "example_zh": "开始之前我想问一个问题。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-cani-01",
+  "pattern_id": "p-cani",
+  "english": "Can I look at the menu?",
+  "chinese": "我可以看下菜单吗？",
+  "scenario": "request",
+  "required_vocab": [
+   "look",
+   "menu"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "Can I look at the menu, please?",
+  "example_zh": "我可以看下菜单吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-cani-02",
+  "pattern_id": "p-cani",
+  "english": "Can I have a receipt?",
+  "chinese": "可以给我一张收据吗？",
+  "scenario": "travel",
+  "required_vocab": [
+   "have",
+   "receipt"
+  ],
+  "new_vocab": [
+   "have",
+   "receipt"
+  ],
+  "difficulty": "A1",
+  "example_en": "Can I have a receipt for this, please?",
+  "example_zh": "这个可以给我一张收据吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-cani-03",
+  "pattern_id": "p-cani",
+  "english": "Can I sit here?",
+  "chinese": "我可以坐这里吗？",
+  "scenario": "request",
+  "required_vocab": [
+   "sit",
+   "here"
+  ],
+  "new_vocab": [
+   "here"
+  ],
+  "difficulty": "A1",
+  "example_en": "Can I sit here until my room is ready?",
+  "example_zh": "我房间准备好之前可以坐这里吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-where-01",
+  "pattern_id": "p-where",
+  "english": "Where is the toilet?",
+  "chinese": "洗手间在哪里？",
+  "scenario": "request",
+  "required_vocab": [
+   "toilet"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "Excuse me, where is the toilet?",
+  "example_zh": "打扰一下，洗手间在哪里？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-where-02",
+  "pattern_id": "p-where",
+  "english": "Where is the train station?",
+  "chinese": "火车站在哪里？",
+  "scenario": "travel",
+  "required_vocab": [
+   "train",
+   "station"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "Where is the train station? Is it far?",
+  "example_zh": "火车站在哪里？远吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-where-03",
+  "pattern_id": "p-where",
+  "english": "Where is my luggage?",
+  "chinese": "我的行李在哪里？",
+  "scenario": "travel",
+  "required_vocab": [
+   "luggage"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "Where is my luggage? I can't find it.",
+  "example_zh": "我的行李在哪里？我找不到。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-howmuch-01",
+  "pattern_id": "p-howmuch",
+  "english": "How much is the room per night?",
+  "chinese": "房间每晚多少钱？",
+  "scenario": "travel",
+  "required_vocab": [
+   "room",
+   "night"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "How much is the room per night? Is breakfast included?",
+  "example_zh": "房间每晚多少钱？含早餐吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-howmuch-02",
+  "pattern_id": "p-howmuch",
+  "english": "How much is this bag?",
+  "chinese": "这个包多少钱？",
+  "scenario": "travel",
+  "required_vocab": [
+   "bag"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "How much is this bag? Is there a cheaper one?",
+  "example_zh": "这个包多少钱？有便宜点的吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-howmuch-03",
+  "pattern_id": "p-howmuch",
+  "english": "How much is the ticket?",
+  "chinese": "票多少钱？",
+  "scenario": "travel",
+  "required_vocab": [
+   "ticket"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "How much is the ticket to the city?",
+  "example_zh": "到市区的票多少钱？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-idlike-01",
+  "pattern_id": "p-idlike",
+  "english": "I'd like to change my room.",
+  "chinese": "我想换个房间。",
+  "scenario": "travel",
+  "required_vocab": [
+   "change",
+   "room"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I'd like to change my room. It is too noisy.",
+  "example_zh": "我想换个房间，太吵了。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-idlike-02",
+  "pattern_id": "p-idlike",
+  "english": "I'd like a coffee, please.",
+  "chinese": "我要一杯咖啡。",
+  "scenario": "daily",
+  "required_vocab": [
+   "coffee"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I'd like a coffee, please. No sugar.",
+  "example_zh": "我要一杯咖啡，不加糖。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-idlike-03",
+  "pattern_id": "p-idlike",
+  "english": "I'd like to book a table for two.",
+  "chinese": "我想订一张两人桌。",
+  "scenario": "travel",
+  "required_vocab": [
+   "book",
+   "table"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I'd like to book a table for two at seven.",
+  "example_zh": "我想订七点的两人桌。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-ineed-01",
+  "pattern_id": "p-ineed",
+  "english": "I need a receipt.",
+  "chinese": "我需要一张收据。",
+  "scenario": "travel",
+  "required_vocab": [
+   "receipt"
+  ],
+  "new_vocab": [
+   "receipt"
+  ],
+  "difficulty": "A1",
+  "example_en": "I need a receipt for my company.",
+  "example_zh": "我需要一张收据报销。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-ineed-02",
+  "pattern_id": "p-ineed",
+  "english": "I need to change my booking.",
+  "chinese": "我需要改一下预订。",
+  "scenario": "travel",
+  "required_vocab": [
+   "change",
+   "booking"
+  ],
+  "new_vocab": [
+   "booking"
+  ],
+  "difficulty": "A1",
+  "example_en": "I need to change my booking to next week.",
+  "example_zh": "我需要把预订改到下周。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-ineed-03",
+  "pattern_id": "p-ineed",
+  "english": "I need some help.",
+  "chinese": "我需要一些帮助。",
+  "scenario": "daily",
+  "required_vocab": [
+   "some",
+   "help"
+  ],
+  "new_vocab": [
+   "some"
+  ],
+  "difficulty": "A1",
+  "example_en": "I need some help with my bag.",
+  "example_zh": "我的包需要人帮一下。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-looking-01",
+  "pattern_id": "p-looking",
+  "english": "I'm looking for my luggage.",
+  "chinese": "我在找我的行李。",
+  "scenario": "travel",
+  "required_vocab": [
+   "luggage"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I'm looking for my luggage. It is a black bag.",
+  "example_zh": "我在找我的行李，是个黑包。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-looking-02",
+  "pattern_id": "p-looking",
+  "english": "I'm looking for a cheap hotel.",
+  "chinese": "我在找便宜的旅馆。",
+  "scenario": "travel",
+  "required_vocab": [
+   "cheap",
+   "hotel"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I'm looking for a cheap hotel near the station.",
+  "example_zh": "我在找车站附近便宜的旅馆。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-looking-03",
+  "pattern_id": "p-looking",
+  "english": "I'm looking for the meeting room.",
+  "chinese": "我在找会议室。",
+  "scenario": "work",
+  "required_vocab": [
+   "meeting",
+   "room"
+  ],
+  "new_vocab": [
+   "meeting"
+  ],
+  "difficulty": "A1",
+  "example_en": "I'm looking for the meeting room. Is it on this floor?",
+  "example_zh": "我在找会议室，在这层吗？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-workat-01",
+  "pattern_id": "p-workat",
+  "english": "I work at a small company.",
+  "chinese": "我在一家小公司工作。",
+  "scenario": "work",
+  "required_vocab": [
+   "work",
+   "company"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I work at a small company in the city.",
+  "example_zh": "我在市里一家小公司工作。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-workat-02",
+  "pattern_id": "p-workat",
+  "english": "I work as an assistant.",
+  "chinese": "我是助理。",
+  "scenario": "work",
+  "required_vocab": [
+   "assistant"
+  ],
+  "new_vocab": [
+   "assistant"
+  ],
+  "difficulty": "A1",
+  "example_en": "I work as an assistant in this office.",
+  "example_zh": "我在这个办公室做助理。",
+  "content_version": "v1",
+  "introduced_lemma": "assist",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-workat-03",
+  "pattern_id": "p-workat",
+  "english": "I work at an office.",
+  "chinese": "我在办公室上班。",
+  "scenario": "work",
+  "required_vocab": [
+   "work",
+   "office"
+  ],
+  "new_vocab": [
+   "office"
+  ],
+  "difficulty": "A1",
+  "example_en": "I work at an office near the station.",
+  "example_zh": "我在车站附近的办公室上班。",
+  "content_version": "v1",
+  "introduced_lemma": "office",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-helpwith-01",
+  "pattern_id": "p-helpwith",
+  "english": "I need help with this form.",
+  "chinese": "这个表格我需要帮忙。",
+  "scenario": "work",
+  "required_vocab": [
+   "help",
+   "form"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I need help with this form. Which part is for my name?",
+  "example_zh": "这个表格我需要帮忙，哪一栏写名字？",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-helpwith-02",
+  "pattern_id": "p-helpwith",
+  "english": "I need help with my account.",
+  "chinese": "我的账号需要帮忙。",
+  "scenario": "work",
+  "required_vocab": [
+   "account"
+  ],
+  "new_vocab": [
+   "account"
+  ],
+  "difficulty": "A1",
+  "example_en": "I need help with my account. I can't log in.",
+  "example_zh": "我的账号需要帮忙，我登不进去。",
+  "content_version": "v1",
+  "kind": "场景表达"
+ },
+ {
+  "collocation_id": "c-helpwith-03",
+  "pattern_id": "p-helpwith",
+  "english": "I need help with this tool.",
+  "chinese": "这个工具我需要帮忙。",
+  "scenario": "work",
+  "required_vocab": [
+   "tool"
+  ],
+  "new_vocab": [],
+  "difficulty": "A1",
+  "example_en": "I need help with this tool. How do I start?",
+  "example_zh": "这个工具我需要帮忙，怎么开始？",
+  "content_version": "v1",
+  "teaching_note": "工具/职场通用；AI 场景可作为扩展用法",
+  "kind": "场景表达"
+ }
+]
